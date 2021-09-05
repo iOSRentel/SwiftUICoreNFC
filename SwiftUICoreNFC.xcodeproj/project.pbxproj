@@ -20,6 +20,7 @@
 		6611109E26E4CA2300A9C001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		661110A126E4CA2300A9C001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		661110A326E4CA2300A9C001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6614D85026E4F66E003078D8 /* SwiftUICoreNFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUICoreNFC.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		6611109926E4CA2300A9C001 /* SwiftUICoreNFC */ = {
 			isa = PBXGroup;
 			children = (
+				6614D85026E4F66E003078D8 /* SwiftUICoreNFC.entitlements */,
 				6611109A26E4CA2300A9C001 /* SwiftUICoreNFCApp.swift */,
 				6611109C26E4CA2300A9C001 /* ContentView.swift */,
 				6611109E26E4CA2300A9C001 /* Assets.xcassets */,
@@ -267,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUICoreNFC/SwiftUICoreNFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICoreNFC/Preview Content\"";
 				DEVELOPMENT_TEAM = MW2YXY2465;
@@ -289,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUICoreNFC/SwiftUICoreNFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICoreNFC/Preview Content\"";
 				DEVELOPMENT_TEAM = MW2YXY2465;
