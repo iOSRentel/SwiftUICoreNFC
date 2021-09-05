@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
 //    Как выглядит?
         VStack {
-            TextField("Enter URL", text:$urlT)
+            TextField("Enter URL", text:$urlT).autocapitalization(.none)
             Button(action:{
                 writer.scan(theactualdata: urlT)
             }) {
